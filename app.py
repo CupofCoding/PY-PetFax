@@ -1,6 +1,9 @@
-# config                    
-from flask import Flask
-app = Flask(__name__)
+# config
+from petfax import create_app
+app = create_app()
+
+# from flask import Flask
+# app = Flask(__name__)
 
 # # index route
 # @app.route('/')
